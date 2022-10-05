@@ -17,7 +17,6 @@ import os
 
 app = Flask(__name__)
 
-
 #version_from_file = 'none'
 #print("[ricc] Starting the super-duper vanilla server in python to say HelloWorld!\n")
 
@@ -49,6 +48,8 @@ def index():
         I read version from file and this ./VERSION file is actually read by the build pipeline
         into the Cloud Deploy release name - wOOOt!<br/><br/>
 
+        Hi Skaffold! <br/>
+        
         FAVORITE_COLOR={fav_color}<br/>
         CD_TARGET={cd_stage} <br/>
         CLOUD_DEPLOY_TARGET_COMMON={cloud_deploy_target_common} <br/>
